@@ -21,3 +21,10 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     
     SELECT * FROM AddressBook
     WHERE City = 'new delhi';
+    
+    ALTER TABLE AddressBook
+    ADD type VARCHAR(15);
+    SELECT * FROM AddressBook;
+    UPDATE AddressBook SET type = 'Self'  WHERE First_Name ='priti';
+    UPDATE AddressBook SET type = 'Friend' WHERE First_Name ='usha';
+    SELECT * FROM AddressBook;

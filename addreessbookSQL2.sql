@@ -18,3 +18,6 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     ('usha','ahirwar','rohini','new delhi','delhi','1011010','37437845678','usha@gmail.com');
     
     select*from AddressBook;
+    
+    SELECT * FROM AddressBook
+    WHERE City = 'new delhi';

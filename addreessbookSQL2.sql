@@ -28,3 +28,6 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     UPDATE AddressBook SET type = 'Self'  WHERE First_Name ='priti';
     UPDATE AddressBook SET type = 'Friend' WHERE First_Name ='usha';
     SELECT * FROM AddressBook;
+    
+    SELECT City,COUNT(City) FROM AddressBook GROUP BY City;
+    SELECT State,COUNT(State) FROM AddressBook GROUP BY State;

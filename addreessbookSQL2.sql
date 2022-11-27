@@ -39,3 +39,8 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     
     SELECT *FROM AddressBook;
     SELECT *FROM AddressBook WHERE city ='Mumbai'ORDER BY First_Name ASC;
+    select *From AddressBook;
+    
+    ALTER TABLE AddressBook ADD type VARCHAR(15) DEFAULT 'Friend';
+    ALTER TABLE AddressBook ADD name VARCHAR(15);
+    select*From AddressBook;

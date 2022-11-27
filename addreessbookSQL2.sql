@@ -12,3 +12,8 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
 	Email VARCHAR(150) NOT NULL,
      PRIMARY KEY(Id)
      );
+     DESCRIBE AddressBook;
+     INSERT INTO AddressBook(First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email) VALUES
+     ('priti','ghadege','kr','new delhi','delhi','110044','83685677788','priti@gmail.com'),
+    ('usha','ahirwar','rohini','new delhi','delhi','1011010','37437845678','usha@gmail.com');
+    select*from AddressBook;

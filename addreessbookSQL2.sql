@@ -44,3 +44,4 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     ALTER TABLE AddressBook ADD type VARCHAR(15) DEFAULT 'Friend';
     ALTER TABLE AddressBook ADD name VARCHAR(15);
     select*From AddressBook;
+    SELECT COUNT(type) FROM addressbook;

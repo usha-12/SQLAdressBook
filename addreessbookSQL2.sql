@@ -31,3 +31,11 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     
     SELECT City,COUNT(City) FROM AddressBook GROUP BY City;
     SELECT State,COUNT(State) FROM AddressBook GROUP BY State;
+    
+    
+     INSERT INTO AddressBook(First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email) VALUES
+    ('Aditya', 'bharti', 'patna', 'patna', 'up', '530066','6789563845', 'adi@gmail.com'),
+	('sanket', 'Sisirker', 'Dharavi', 'Mumbai', 'Maharashtra', '530044','8907631888', 'sanket@gmail.com');
+    
+    SELECT *FROM AddressBook;
+    SELECT *FROM AddressBook WHERE city ='Mumbai'ORDER BY First_Name ASC;

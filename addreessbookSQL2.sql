@@ -45,3 +45,7 @@ CREATE TABLE AddressBook(Id INT unsigned NOT NULL AUTO_INCREMENT,
     ALTER TABLE AddressBook ADD name VARCHAR(15);
     select*From AddressBook;
     SELECT COUNT(type) FROM addressbook;
+    
+    INSERT INTO AddressBook(First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email,type,name) VALUES
+     ('pratiik', 'Singh', 'panwel', 'Mumbai', 'Maharashtra', '530044','9426625688', 'sh@mln.com', 'Family',NULL);
+     select *From AddressBook;
